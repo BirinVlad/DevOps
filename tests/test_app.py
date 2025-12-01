@@ -1,5 +1,5 @@
 import pytest
-from ..app import add, is_even
+from app import add, is_even
 
 @pytest.fixture
 def sample_numbers():
